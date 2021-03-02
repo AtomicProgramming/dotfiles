@@ -34,7 +34,8 @@ exec --no-startup-id nm-applet
 exec setxkbmap gb
 
 # Picom (compositor)
-exec --no-startup-id exec picom --config ~/.config/picom/picom.conf
+exec --no-startup-id picom --config /home/${USER}/.config/picom/picom.conf
+
 # Restore wallpaper
 exec nitrogen --restore &
 
