@@ -7,3 +7,5 @@
 !.gitignore
 !.zshrc
 !*.png
+!termite/
+!picom/picom.conf
