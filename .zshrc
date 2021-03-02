@@ -1,8 +1,9 @@
-# Lines configured by zsh-newuser-install
+# History:
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
-# End of linUs configured by zsh-newuser-install
 
-autoload -Uz compinit
-compinit
+# Promt
+autoload -Uz promptinit
+promptinit
+prompt spaceship
